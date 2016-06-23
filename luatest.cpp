@@ -6,8 +6,6 @@
 
 static int c_cont (lua_State *L, int status, lua_KContext ctx)
 {
-	printf("c_count status:%d\n",status);
-	printf("c_count ctx:%d\n", ctx);
 	return 0;
 }
 
