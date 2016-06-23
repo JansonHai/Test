@@ -9,7 +9,7 @@ local function cofunc()
 			coroutine.yield();
 		end
 	end
-	local file = io.open("txt","a");
+	local file = io.open("txt","r");
 	print(file:read("*all"));
 	co = nil
 end
